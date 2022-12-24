@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: blanchedalmond;
 }
 
 .App-header {
@@ -12,6 +13,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.project-image {
-  width: 400px;
+.projectDiv{
+  display:flex;  
+  flex-direction: column;
+}
+
+.projectImg {
+  width: 50%;
+  align-self: center;
 }

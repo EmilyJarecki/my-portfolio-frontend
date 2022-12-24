@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* the 4 icons locations */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  width: 350px;
+}
+
+a.github, a.linkedin, a.email {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* this is confusing but placement of square */
+  transform: rotate(-30deg) skew(25deg) translate(0, 0);
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+  /* the speed of box movement  */
+  transition: 0.3s all ease-in-out;
+}
+
+a.github:hover, a.linkedin:hover, a.email:hover {
+  transform: rotate(-30deg) skew(25deg) translate(10px, -10px);
+  box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+a.github:hover {
+  background-color: #000000;
+}
+
+a.linkedin:hover {
+  background-color: #0371ae;
+}
+
+a.email:hover {
+  background-color: #953bb3;
+}
+
+/* controls the size of icons */
+a svg {
+  width: 30px;
+  height: 30px;
+}
+
+/* determines the color it currently is now and how fast it transitions into NEXT color */
+a svg path,
+a svg circle {
+  transition: 0.1s all ease-in-out;
+  fill: #292929;
+}
+
+/* this changes the icon color after hover */
+a:hover svg path,
+a:hover svg circle {
+  fill: #fff;
+}
