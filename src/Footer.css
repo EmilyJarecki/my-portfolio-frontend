@@ -1,16 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
+footer{
+    display: flex;
 }
 
-/* the 4 icons locations */
-footer {
+nav.footer {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
-  width: 350px;
+  height: 80px;
+  background-color:  rgba(0, 0, 0, 0.286);
+  position: fixed;
+  bottom: 0;
 }
 
 a.github, a.linkedin, a.email {
@@ -20,11 +20,13 @@ a.github, a.linkedin, a.email {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* this is confusing but placement of square */
   transform: rotate(-30deg) skew(25deg) translate(0, 0);
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
-  /* the speed of box movement  */
+  box-shadow: -5px 5px 10px rgb(121, 113, 213);
   transition: 0.3s all ease-in-out;
+}
+
+a.linkedin{
+    margin: 50px;
 }
 
 a.github:hover, a.linkedin:hover, a.email:hover {

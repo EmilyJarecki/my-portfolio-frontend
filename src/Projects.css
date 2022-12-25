@@ -1,0 +1,11 @@
+.projectDiv{
+    display:flex;  
+    flex-direction: column;
+    margin: 0 0 100px 0;
+    
+  }
+  
+  .projectImg {
+    width: 50%;
+    align-self: center;
+  }

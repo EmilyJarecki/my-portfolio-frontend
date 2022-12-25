@@ -1,5 +1,7 @@
 import "./App.css";
 import "./Footer.css"
+import "./Home.css"
+import "./Projects.css"
 
 // IMPORT COMPONENTS
 import Header from "./components/Header";

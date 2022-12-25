@@ -1,8 +1,9 @@
 function Home(props) {
   return (
-    <>
-      <h1>Welcome</h1>
-    </>
+    <div className="intro">
+      <h2>I am Emily Jarecki.</h2>
+      <h1 className="title"></h1>
+    </div>
   );
 }
 

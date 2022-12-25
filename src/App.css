@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: blanchedalmond;
+  font-family: 'Nanum Myeongjo', serif;
+  height: 100;
+  font-weight: 800px;
 }
 
 .App-header {
@@ -13,12 +15,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.projectDiv{
-  display:flex;  
+.About{
+  display: flex;
   flex-direction: column;
-}
+  align-items: center;
 
-.projectImg {
-  width: 50%;
-  align-self: center;
+}
+.bio{
+  width: 300px;
+  display: flex;
+  justify-content: center;
 }
