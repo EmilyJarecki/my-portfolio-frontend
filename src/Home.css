@@ -90,3 +90,8 @@
       content: "A Software Engineer.";
     }
 }
+.myPic{
+  width: 300px;
+  opacity: .3;
+  margin: 0 0 200px 0;
+}

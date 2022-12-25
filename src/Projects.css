@@ -1,11 +1,20 @@
 .projectDiv{
-    display:flex;  
-    flex-direction: column;
-    margin: 0 0 100px 0;
+    display: grid flex;
     
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
   
+  .individualProject {
+    justify-self: center;
+    margin: 30px;
+    width: 40%;
+    border: 6px solid black;
+  } 
+
   .projectImg {
-    width: 50%;
+    width: 70%;
     align-self: center;
   }

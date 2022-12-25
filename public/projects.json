@@ -3,8 +3,7 @@
         "name": "The Weather Window",
         "live": "https://inspiring-douhua-d09af5.netlify.app/",
         "git": "https://github.com/npereznyc/Project-2-Weather-App/blob/main/README.md",
-        "image1": "https://github.com/npereznyc/Project-2-Weather-App/raw/main/assets/Screen%20Shot%20Homepage.png",
-        "image2": "https://github.com/npereznyc/Project-2-Weather-App/raw/main/assets/Screen%20Shot%207Day%20Forecast.png"
+        "image": "https://github.com/npereznyc/Project-2-Weather-App/raw/main/assets/Screen%20Shot%20Homepage.png"
       },
       {
       "name": "Candy Crush Memory Match",
