@@ -1,12 +1,15 @@
+.symbolpage
+
 .symbolDiv{
     width: 75%;
     display:flex;
     justify-content: space-evenly;
+    margin: auto; 
     margin-top: 40px;
 }
 
 .symbol {
-    width: 40px;
+    width: 40px; 
 }
 
 .resumeDoc{

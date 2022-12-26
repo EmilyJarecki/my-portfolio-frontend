@@ -22,7 +22,7 @@ function Resume(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return resume.map((resume) => (
-      <div>
+      <div className="symbolpage">
         <div className="symbolDiv">
             <img className="symbol" src="https://img.icons8.com/color/512/javascript.png"/>
             <img className="symbol" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/512/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-color-tal-revivo.png"/>
