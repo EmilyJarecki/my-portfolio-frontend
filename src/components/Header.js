@@ -5,7 +5,6 @@ function Header(props) {
   const navStyle = {
     display: "flex",
     justifyContent: "space-around",
-    border: "3px solid black",
     padding: "8px",
     width: "90%",
     margin: "auto",
@@ -13,8 +12,8 @@ function Header(props) {
 
   return (
     <header>
-      <h1>My Portfolio Page</h1>
-      <nav style={navStyle}>
+      <h1>" "</h1>
+      <nav className="headerNav" style={navStyle}>
         <Link to="/">
           <div>HOME</div>
         </Link>
@@ -23,6 +22,9 @@ function Header(props) {
         </Link>
         <Link to="/projects">
           <div>PROJECTS</div>
+        </Link>
+        <Link to="/resume">
+          <div>RESUME</div>
         </Link>
       </nav>
     </header>

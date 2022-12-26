@@ -1,20 +1,41 @@
-.projectDiv{
-    display: grid flex;
-    
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-  }
-  
-  .individualProject {
-    justify-self: center;
-    margin: 30px;
-    width: 40%;
-    border: 6px solid black;
-  } 
+.outerProject{
+    display: flex;
+      justify-content: center;
+}
+.individualProject {
+  margin: 10px 0 0 0;
+  width: 70%;
+  display: flex;
+}
 
-  .projectImg {
-    width: 70%;
-    align-self: center;
-  }
+.projectInfo{
+  width: 40%;
+  text-align: right;
+  position:relative;
+  margin: 20px;
+}
+.projectLink {
+  width: 100%;
+  font-size: 18px;
+}
+.projectImg {
+  float: right;
+  display: -webkit-box;
+  margin-left: auto;
+  width: 80%;
+  border: solid white 3px;
+  box-shadow: 10px 15px 5px rgb(0, 0, 0, .5);
+}
+h1.projectName{
+    float: right;
+    font-size: 60px;
+    margin-bottom: auto;
+}
+p.projectDes{
+    float: right;
+    font-size: 24px;
+}
+a.projectLink{
+    font-family: "Fragment Mono", monospace;
+    color: rgb(19, 51, 234);
+}

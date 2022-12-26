@@ -5,8 +5,8 @@
   font-weight: 800px;
 }
 
-.App-header {
-  background-color: #282c34;
+/* .App-header {
+  background-color: #2061e3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,6 +14,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+.projectDiv{
+  display:flex;  
+  flex-direction: column;
+}
+
+.projectImg {
+  width: 50%;
+  align-self: center;
 }
 .About{
   display: flex;
@@ -25,4 +34,7 @@
   width: 300px;
   display: flex;
   justify-content: center;
+}
+.headerNav{
+  font-size: 20px;
 }

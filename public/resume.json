@@ -1,16 +1,10 @@
+
 [
     {
-        "name": "The Weather Window",
+        "name": "JavaScript and HTML",
         "live": "https://inspiring-douhua-d09af5.netlify.app/",
         "git": "https://github.com/npereznyc/Project-2-Weather-App/blob/main/README.md",
         "image": "https://github.com/npereznyc/Project-2-Weather-App/raw/main/assets/Screen%20Shot%20Homepage.png",
         "description": "A client-rendered application that leverages third-party API and the read-only Navigator.geolocation property to deliver immediate weather forecast results for client’s current and future weather."
-      },
-      {
-      "name": "Candy Crush Memory Match",
-      "live": "https://emilyjarecki.github.io/MemoryMatcher/",
-      "git": "https://github.com/EmilyJarecki/MemoryMatcher",
-      "image": "https://user-images.githubusercontent.com/107048020/206950500-c733017d-3683-4120-96fc-7c8478167a91.png",
-      "description": "A browser-based game to engage users in a Candy Crush Saga inspired memory matching game."
-    }
+      }
   ]

@@ -1,97 +1,113 @@
-.intro{
-    position: absolute;
-    margin-top: 100px;
-    width: 100%;
-  }
-
-  h1.title:after {
-    content: "";
-    animation: abomination1 7.5s linear 1;
-    animation-fill-mode: forwards;
-  }
-
-    @keyframes abomination1 {
-    0% {
-      content: "A";
-    }
-    4% {
-      content: "A So";
-    }
-    8% {
-      content: "A SoF";
-    }
-    12% {
-      content: "A So";
-    }
-    16% {
-      content: "A Sof";
-    }
-    20% {
-      content: "A Soft";
-    }
-    24% {
-      content: "A Softw";
-    }
-    28% {
-      content: "A Softwa";
-    }
-    32% {
-      content: "A Softwar";
-    }
-    36% {
-      content: "A Softwarr";
-    }
-    40% {
-      content: "A Softwar";
-    }
-    44% {
-      content: "A Software";
-    }
-    48% {
-      content: "A Software ";
-    }
-    52% {
-      content: "A Software e";
-    }
-    56% {
-      content: "A Software ";
-    }
-    60% {
-      content: "A Software E";
-    }
-    64% {
-      content: "A Software En";
-    }
-    68% {
-      content: "A Software Eng";
-    }
-    72% {
-      content: "A Software Engi";
-    }
-    76% {
-      content: "A Software Engin";
-    }
-    80% {
-      content: "A Software Enginn";
-    }
-    84% {
-      content: "A Software Engin";
-    }
-    88% {
-      content: "A Software Engine";
-    }
-    92% {
-      content: "A Software Enginee";
-    }
-    96% {
-      content: "A Software Engineer";
-    }
-    100% {
-      content: "A Software Engineer.";
-    }
+.iAm {
+  font-family: "Bebas Neue", cursive;
+  color: rgb(93, 93, 93);
+  font-size: 48px;
 }
-.myPic{
+
+.title {
+  font-family: "Fragment Mono", monospace;
+  font-size: 48px;
+}
+
+.Jarecki {
+  color: black;
+}
+
+.intro {
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+}
+
+h1.title:after {
+  content: "";
+  animation: abomination1 5.5s linear 1;
+  animation-fill-mode: forwards;
+  color:rgb(0, 0, 0)
+}
+
+@keyframes abomination1 {
+  0% {
+    content: "<A>";
+  }
+  4% {
+    content: "<A So>";
+  }
+  8% {
+    content: "<A SoF>";
+  }
+  12% {
+    content: "<A So>";
+  }
+  16% {
+    content: "<A Sof>";
+  }
+  20% {
+    content: "<A Soft>";
+  }
+  24% {
+    content: "<A Softw>";
+  }
+  28% {
+    content: "<A Softwa>";
+  }
+  32% {
+    content: "<A Softwar>";
+  }
+  36% {
+    content: "<A Softwarr>";
+  }
+  40% {
+    content: "<A Softwar>";
+  }
+  44% {
+    content: "<A Software>";
+  }
+  48% {
+    content: "<A Software >";
+  }
+  52% {
+    content: "<A Software e>";
+  }
+  56% {
+    content: "<A Software >";
+  }
+  60% {
+    content: "<A Software E>";
+  }
+  64% {
+    content: "<A Software En>";
+  }
+  68% {
+    content: "<A Software Eng>";
+  }
+  72% {
+    content: "<A Software Engi>";
+  }
+  76% {
+    content: "<A Software Engin>";
+  }
+  80% {
+    content: "<A Software Enginn>";
+  }
+  84% {
+    content: "<A Software Engin>";
+  }
+  88% {
+    content: "<A Software Engine>";
+  }
+  92% {
+    content: "<A Software Enginee>";
+  }
+  96% {
+    content: "<A Software Engineer>";
+  }
+  100% {
+    content: "<A Software Engineer.>";
+  }
+}
+.myPic {
   width: 300px;
-  opacity: .3;
+  opacity: 0.3;
   margin: 0 0 200px 0;
 }
