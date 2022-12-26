@@ -40,6 +40,13 @@ function Resume(props) {
             <img className="symbol" src="https://img.icons8.com/color/512/heroku.png"/>
             <img className="symbol" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"/>
         </div>
+        <div>
+            
+            <a href="https://docs.google.com/document/d/1fnb_6tLnrSiucLwA2Ku8tQmy1caSJp5j4Ji2qh3J6xw" target="_blank">
+              <img className= "resumeDoc" src="https://i.imgur.com/Vn7ZRAn.png"/>  
+            </a>
+            
+        </div>
       </div>
     ));
   };
