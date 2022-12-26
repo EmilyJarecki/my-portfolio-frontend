@@ -23,7 +23,6 @@ h1.title:after {
   content: "";
   animation: abomination1 5.5s linear 1;
   animation-fill-mode: forwards;
-  color:rgb(0, 0, 0)
 }
 
 @keyframes abomination1 {
@@ -105,9 +104,4 @@ h1.title:after {
   100% {
     content: "<A Software Engineer.>";
   }
-}
-.myPic {
-  width: 300px;
-  opacity: 0.3;
-  margin: 0 0 200px 0;
 }

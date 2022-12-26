@@ -5,19 +5,12 @@
   font-weight: 800px;
 }
 
-/* .App-header {
-  background-color: #2061e3;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
 .projectDiv{
   display:flex;  
   flex-direction: column;
+}
+.imageSec{
+  margin-top: 50px;
 }
 
 .projectImg {
@@ -31,10 +24,16 @@
 
 }
 .bio{
-  width: 300px;
+  width: 50%;
   display: flex;
   justify-content: center;
+  font-size: 18px;
 }
 .headerNav{
   font-size: 20px;
+}
+img.myPic{
+  width: 15%;
+  opacity: .8;
+  border: solid 2px rgb(255, 255, 255);
 }
