@@ -1,17 +1,16 @@
-.outerProject{
-    display: flex;
-      justify-content: center;
+.outerProject {
+  display: flex;
+  justify-content: center;
 }
 .individualProject {
-  margin: 10px 0 0 0;
-  width: 70%;
+  margin: 10px 0 50px 0;
+  width: 90%;
   display: flex;
 }
-
-.projectInfo{
+.projectInfo {
   width: 40%;
   text-align: right;
-  position:relative;
+  position: relative;
   margin: 20px;
 }
 .projectLink {
@@ -22,20 +21,72 @@
   float: right;
   display: -webkit-box;
   margin-left: auto;
-  width: 80%;
+  width: 70%;
   border: solid white 3px;
-  box-shadow: 10px 15px 5px rgb(0, 0, 0, .5);
+  box-shadow: 10px 15px 5px rgb(0, 0, 0, 0.5);
 }
-h1.projectName{
-    float: right;
-    font-size: 60px;
-    margin-bottom: auto;
+h1.projectName {
+  float: right;
+  font-size: 60px;
+  margin-bottom: auto;
 }
-p.projectDes{
-    float: right;
-    font-size: 24px;
+p.projectDes {
+  float: right;
+  font-size: 18px;
 }
-a.projectLink{
-    font-family: "Fragment Mono", monospace;
-    color: rgb(19, 51, 234);
+a.projectLink {
+  font-family: "Fragment Mono", monospace;
+  color: rgb(19, 51, 234);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 620px) {
+  .outerProject {
+    display: flex;
+    flex-direction: column;
+  }
+  .individualProject {
+    margin: 10px 0 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .projectInfo {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 20px;
+  }
+  .projectLink {
+    width: 100%;
+    font-size: 10px;
+  }
+  .projectImg {
+    width: 100%;
+    border: solid white 3px;
+    box-shadow: 10px 15px 5px rgb(0, 0, 0, 0.5);
+  }
+  h1.projectName {
+    font-size: 48px;
+    width: 100%;
+  }
+  p.projectDes {
+    font-size: 18px;
+  }
+
 }
