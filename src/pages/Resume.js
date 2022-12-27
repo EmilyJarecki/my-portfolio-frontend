@@ -4,22 +4,15 @@ function Resume(props) {
   // create state to hold projects
   const [resume, setResume] = useState(null);
 
-  //create function to make api call
-  const getResumeData = async () => {
-    //make api call and get response
-    const response = await fetch("./resume.json");
+  useEffect(()=>{
+    async function getResumeData() {
+      const response = await fetch("./resume.json");
+      const data = await response.json();
+      setResume(data);
+    }
+    getResumeData()
+  }, [])
 
-    // turn response into javascript object
-    const data = await response.json();
-
-    // set the projects state to the data
-    setResume(data);
-  };
-
-  // make an initial call for the data inside a useEffect, so it only happens once on component load
-  useEffect(() => getResumeData(), []);
-
-  // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return resume.map((resume) => (
       <div>
