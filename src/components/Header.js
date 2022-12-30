@@ -15,16 +15,16 @@ function Header(props) {
 
       <nav className="headerNav" style={navStyle}>
         <Link to="/">
-          <div>HOME</div>
+          <div className="navOption">HOME</div>
         </Link>
         <Link to="/about">
-          <div>ABOUT</div>
+          <div className="navOption">ABOUT</div>
         </Link>
         <Link to="/projects">
-          <div>PROJECTS</div>
+          <div className="navOption">PROJECTS</div>
         </Link>
         <Link to="/resume">
-          <div>RESUME</div>
+          <div className="navOption">RESUME</div>
         </Link>
       </nav>
     </header>
