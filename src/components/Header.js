@@ -15,7 +15,7 @@ function Header(props) {
 
       <nav className="headerNav" style={navStyle}>
         <Link to="/">
-          <div className="navOption">HOME</div>
+          <div className="navOption" text-decoration="none" >HOME</div>
         </Link>
         <Link to="/about">
           <div className="navOption">ABOUT</div>
