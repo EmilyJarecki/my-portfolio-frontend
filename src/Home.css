@@ -2,54 +2,6 @@
   margin-top: 15%;
 }
 
-.headerNav{
-  border-bottom: black 3px solid;
-}
-
-.navOption{
-  font-size: 24px;
-  margin-top: 30px;
-}
-.navOption::after{
-  left: 0;
-  bottom:0;
-  transition-delay: 0.6s;
-}
-.btn-3 span::after{
-  transition-delay: 0.4s;
-  right: 0;
-  bottom: 0
-}
-.btn-3::before{
-  right: 0;
-  top: 0;
-  transition-delay: 0.2s;
-}
-.btn-3 span::before{
-  transition-delay: 0s;
-  left: 0;
-  top: 0;
-}
-
-.btn-3:hover::after{
-  transition-delay: 0s;
-}
-.btn-3:hover span::after{
-  transition-delay: 0.2s;
-}
-.btn-3:hover::before{
-  transition-delay: 0.4s;
-}
-.btn-3:hover span::before{
-  transition-delay: 0.6s;
-}
-
-
-
-a:link{
-  text-decoration: none;
-}
-
 .iAm {
   font-family: "Bebas Neue", cursive;
   color: rgb(93, 93, 93);

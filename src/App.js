@@ -3,6 +3,7 @@ import "./Footer.css"
 import "./Home.css"
 import "./Projects.css"
 import "./Resume.css"
+import "./Header.css"
 
 // IMPORT COMPONENTS
 import Header from "./components/Header";

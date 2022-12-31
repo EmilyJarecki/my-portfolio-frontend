@@ -1,0 +1,22 @@
+/* .headerNav{
+  } */
+  
+  .navOption{
+    font-size: 24px;
+    margin-top: 30px;
+    color:black;
+    position:fixed;
+  }
+
+  .navOption:hover{
+    border-right: black 3px solid;
+    border-left: black 3px solid;
+    transition: all 1s ease;
+    color: orange;
+    font-family: "Fragment Mono", monospace;
+    padding: 8px;
+  }
+  
+  a:link{
+    text-decoration: none;
+  }
