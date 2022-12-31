@@ -1,0 +1,14 @@
+.headerNav{
+    border-bottom: black 3px solid;
+  }
+  
+  .navOption{
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+  
+  
+  a:link{
+    text-decoration: none;
+  }
