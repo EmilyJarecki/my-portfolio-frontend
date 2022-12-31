@@ -78,7 +78,7 @@ a.projectLink {
   }
   .projectLink {
     width: 100%;
-    font-size: 10px;
+    font-size: 12px;
   }
   .projectImg {
     width: 100%;
@@ -91,6 +91,7 @@ a.projectLink {
   }
   p.projectDes {
     font-size: 18px;
+    width: 100%;
   }
 
 }

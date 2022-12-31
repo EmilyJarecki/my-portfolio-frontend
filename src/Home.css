@@ -122,3 +122,10 @@ h1.title:after {
     content: "<A Software Engineer.>";
   }
 }
+@media only screen and (max-width: 1000px) {
+  .navOption{
+    font-size: 18px;
+  }
+
+
+}
