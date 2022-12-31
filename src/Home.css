@@ -38,40 +38,40 @@ a:link{
 
 h1.title:after {
   content: "";
-  animation: abomination1 5.5s linear 1;
+  animation: abomination1 7.5s linear 1;
   animation-fill-mode: forwards;
 }
 
 @keyframes abomination1 {
   0% {
-    content: "<A>";
+    content: "";
   }
   4% {
-    content: "<A So>";
+    content: "<>";
   }
   8% {
-    content: "<A SoF>";
+    content: "<A>";
   }
   12% {
-    content: "<A So>";
+    content: "<A >";
   }
   16% {
-    content: "<A Sof>";
+    content: "<A S>";
   }
   20% {
-    content: "<A Soft>";
+    content: "<A So>";
   }
   24% {
-    content: "<A Softw>";
+    content: "<A Sof>";
   }
   28% {
-    content: "<A Softwa>";
+    content: "<A Soft>";
   }
   32% {
-    content: "<A Softwar>";
+    content: "<A Softw>";
   }
   36% {
-    content: "<A Softwarr>";
+    content: "<A Softwa>";
   }
   40% {
     content: "<A Softwar>";
@@ -80,10 +80,10 @@ h1.title:after {
     content: "<A Software>";
   }
   48% {
-    content: "<A Software >";
+    content: "<A Softwaree>";
   }
   52% {
-    content: "<A Software e>";
+    content: "<A Software>";
   }
   56% {
     content: "<A Software >";

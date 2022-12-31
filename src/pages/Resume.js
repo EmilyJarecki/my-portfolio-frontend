@@ -36,7 +36,7 @@ function Resume(props) {
         <div>
             
             <a href="https://i.imgur.com/Gw4MJfS.png" target="_blank">
-              <img className= "resumeDoc" src="https://i.imgur.com/Vn7ZRAn.png"/>  
+              <img className= "resumeDoc" src="https://i.imgur.com/Gw4MJfS.png"/>  
             </a>
             
         </div>
