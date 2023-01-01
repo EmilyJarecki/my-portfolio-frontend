@@ -33,7 +33,6 @@ h1.projectName {
 p.projectDes {
   float: right;
   font-size: 24px;
-  margin-right: 30px;
 }
 a.projectLink {
   font-family: "Fragment Mono", monospace;
