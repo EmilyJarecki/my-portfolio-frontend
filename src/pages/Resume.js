@@ -178,7 +178,6 @@ function Resume(props) {
             <li>
               <div className="timelineEventBox">
                 <h2>UNIVERSITY OF ILLINOIS AT CHICAGO</h2>
-                <p>August 2018 - December 2021</p>
                 <p className="jobDescription">
                   Bachelor's in English; Professional Writing
                 </p>
