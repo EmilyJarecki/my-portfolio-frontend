@@ -21,58 +21,58 @@ function Resume(props) {
           <ul>
             <li>
               <div className="timelineEventBox">
-                <h1>General Assembly, Software Engineer Fellow</h1>
-                <p>October 2022 - February 2023</p>
+                <h2>GENERAL ASSEMBLY, <br></br><span className="jobName">Software Engineer Fellow</span></h2>
                 <p className="jobDescription">
                   A 12-week, 500+ hour immersive course on full-stack web
                   development; designed and built 3 full-stack applications and 1
                   client application that interacts with a third-party API.
                 </p>
+                <h1 className="date">2023</h1>
               </div>
             </li>
             <li>
               <div className="timelineEventBox">
-                <h1>True Food Kitchen, Server</h1>
-                <p>March 2022 - October 2022</p>
+                <h2>TRUE FOOD KITCHEN, <br></br><span className="jobName">Server</span></h2>
                 <p className="jobDescription">
                   Handled 8 tables at a time, facilitating communication between
                   approximately 40 clients and kitchen staff, and oversaw the
                   introduction of 30+ new food and drink items per quarter.
                 </p>
+                <h1 className="date">2022</h1>
               </div>
             </li>
             <li>
               <div className="timelineEventBox">
-                <h1>Crate & Barrel, Sales Associate</h1>
-                <p>June 2018 - April 2022</p>
+                <h2>CRATE & BARREL, <br></br><span className="jobName">Sales Associate</span></h2>
                 <p className="jobDescription">
                   Exceeded yearly expectations in sales KP, upselling
                   approximately $100,000 worth of product yearly, notably
                   developed a new system of operation leading to an approximate
                   140% increase in order completion and client satisfaction.
                 </p>
+                <h1 className="date">2022</h1>
               </div>
             </li>
             <li>
               <div className="timelineEventBox">
-                <h1>William Reed Business Media, Editorial Intern</h1>
-                <p>May 2021 - August 2021</p>
+                <h2>WILLIAM REED BUSINESS MEDIA, <br></br><span className="jobName">Editorial Intern</span></h2>
                 <p className="jobDescription">
                   Collaborated with Editor-in-Chief to publish content for 3
                   different B2B news channels while seeking prospective
                   opportunities.
                 </p>
+                <h1 className="date">2021</h1>
               </div>
             </li>
             <li>
               <div className="timelineEventBox">
-                <h1>Flower Bomb Media, Editorial Intern</h1>
-                <p>December 2020 - May 2021</p>
+                <h2>FLOWER BOMB MEDIA, <br></br><span className="jobName">Editorial Intern</span></h2>
                 <p className="jobDescription">
                   Conceptualized and produced 30+ articles for global fashion
                   and entertainment magazine, New Face Magazine, which produced
                   17 issues that year and has 64k+ followers on social media,
                 </p>
+                <h1 className="date">2021</h1>
               </div>
             </li>
           </ul>
@@ -146,18 +146,20 @@ function Resume(props) {
           <ul>
             <li>
               <div className="timelineEventBox">
-                <h1>General Assembly</h1>
-                <p>October 2022 - February 2023</p>
+                <h2>GENERAL ASSEMBLY</h2>
                 <p className="jobDescription">Software Engineering Immersive</p>
+                <h1 className="date">2023</h1>
               </div>
             </li>
             <li>
+              <h1></h1>
               <div className="timelineEventBox">
-                <h1>University of Illinois at Chicago</h1>
+                <h2>UNIVERSITY OF ILLINOIS AT CHICAGO</h2>
                 <p>August 2018 - December 2021</p>
                 <p className="jobDescription">
                   Bachelor's in English; Professional Writing
                 </p>
+                <h1 className="date">2021</h1>
               </div>
             </li>
           </ul>
