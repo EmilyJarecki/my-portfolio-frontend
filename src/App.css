@@ -1,7 +1,12 @@
+html{
+  background-color: #252B37;
+  color: white
+}
 .App {
   text-align: center;
   font-family: 'EB Garamond', serif;
   height: 100;
+
 }
 
 .projectDiv{
@@ -32,9 +37,8 @@
   font-size: 20px;
 }
 img.myPic{
-  width: 30%;
-  opacity: .8;
-  border: solid 2px rgb(255, 255, 255);
+  width: 20%;
+  opacity: .7;
 }
 
 

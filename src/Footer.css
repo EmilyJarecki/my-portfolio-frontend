@@ -22,7 +22,7 @@ a.github, a.linkedin, a.email {
   justify-content: center;
   align-items: center;
   transform: rotate(-30deg) skew(25deg) translate(0, 0);
-  box-shadow: -5px 5px 10px rgb(0, 0, 0);
+  box-shadow: -5px 5px 10px rgba(255, 255, 255, 0.594);
   transition: 0.3s all ease-in-out;
 }
 
@@ -32,7 +32,7 @@ a.linkedin{
 
 a.github:hover, a.linkedin:hover, a.email:hover {
   transform: rotate(-30deg) skew(25deg) translate(10px, -10px);
-  box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: -20px 20px 30px white;
 }
 
 a.github:hover {

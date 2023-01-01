@@ -22,8 +22,6 @@
   display: -webkit-box;
   margin-left: auto;
   width: 70%;
-  border: solid white 3px;
-  box-shadow: 10px 15px 5px rgb(0, 0, 0, 0.5);
 }
 h1.projectName {
   float: right;
@@ -36,7 +34,7 @@ p.projectDes {
 }
 a.projectLink {
   font-family: "Fragment Mono", monospace;
-  color: rgb(19, 51, 234);
+  color: rgb(242, 230, 65);
 }
 
 

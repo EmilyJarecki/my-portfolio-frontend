@@ -4,7 +4,7 @@
 
 .iAm {
   font-family: "Bebas Neue", cursive;
-  color: rgb(93, 93, 93);
+  color:rgba(245, 245, 245, 0.586);
   font-size: 48px;
 }
 
@@ -13,8 +13,8 @@
   font-size: 48px;
 }
 
-.sJarecki {
-  color: black;
+.Jarecki {
+  color: white;
 }
 
 .intro {
