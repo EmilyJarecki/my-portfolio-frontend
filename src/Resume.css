@@ -11,7 +11,67 @@
 }
 
 .resumeDoc{
-    width: 70%;
+    width: 50%;
     margin: 50px;
     border: solid black 1px;
 }
+ul {
+    /* styling */
+        padding: 50px;
+      }
+      
+      ul li {
+    /* unsure of what this does */
+        position:relative;
+    /* just gets rid of dot */
+        list-style-type: none;
+    
+    /* TODO width of the line!!! */
+        width: 3px;
+    
+    /* color of "line" otherwise it would blend in */
+        background-color: black;
+    
+    /* TODO auto===stick to the CENTER of the line. 
+    number===styling(?) */
+        margin: 0 auto;
+    
+    /* styling */
+        padding-top: 50px;
+      }
+    
+      ul li::after {
+    /* color of dot */
+        background: red;
+    /* the dot "box" has no word in it */
+        content: '';
+    /* ~~~sizing~~~ */
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    /* ~~~placement~~~ */
+        position:absolute;
+        left:50%;
+        transform: translateX(-50%);
+        bottom: 0;
+    /* i believe the beginning * thing has something to do with */
+        }
+        ul li div{
+        /* not much */
+            position: relative;
+        /* ~~~styling~~~ */
+            width: 400px;
+            padding: 15px;
+            border-radius: 5px;
+            bottom: 0;
+            background: rgba(42,50,113, .28);
+          }
+    
+        /* this is counting children which I don't know how it knows */
+          ul li:nth-child(odd) div {
+            left: 45px;
+          }
+          
+          ul li:nth-child(even) div {
+            left: -445px;
+          }

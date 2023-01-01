@@ -34,12 +34,46 @@ function Resume(props) {
             <img className="symbol netlify" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"/>
         </div>
         <div>
-            
+      <ul>
+      <li>
+          <div>
+            <h1>Software Engineer Fellow, General Assembly</h1>
+            <p>Learned Software</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h1>Server, True Food Kitchen</h1>
+            <p>Served food</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h1>Sales Associate, Crate & Barrel</h1>
+            <p>Sold stuff</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h1>Editorial Intern, William Reed Business Media</h1>
+            <p>Wrote stuff</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h1>Editorial Intern, Flower Bomb Media</h1>
+            <p>Wrote in a magazine</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+        {/* <div>
             <a href="https://i.imgur.com/Gw4MJfS.png" target="_blank">
               <img className= "resumeDoc" src="https://i.imgur.com/Gw4MJfS.png"/>  
             </a>
-            
-        </div>
+        </div> */}
+
+        
       </div>
     ));
   };
