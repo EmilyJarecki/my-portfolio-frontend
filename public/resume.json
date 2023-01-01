@@ -1,10 +1,33 @@
 
 [
     {
-        "name": "JavaScript and HTML",
-        "live": "https://inspiring-douhua-d09af5.netlify.app/",
-        "git": "https://github.com/npereznyc/Project-2-Weather-App/blob/main/README.md",
-        "image": "https://github.com/npereznyc/Project-2-Weather-App/raw/main/assets/Screen%20Shot%20Homepage.png",
-        "description": "A client-rendered application that leverages third-party API and the read-only Navigator.geolocation property to deliver immediate weather forecast results for client’s current and future weather."
+        "company": "General Assembly",
+        "title": "Software Engineer Fellow",
+        "time": "October 2022 - February 2023",
+        "description": "A 12-week / 500+ hour immersive course on full-stack web development;designed and built 3 full-stack applications and 1 client application that interacts with a third-party API."
+      },
+      {
+        "company": "True Food Kitchen",
+        "title": "Server",
+        "time": "March 2022 - October 2022",
+        "description": "Handled 8 tables at a time, facilitating communication between approximately 40 clients and kitchen staff, and oversaw the introduction of 30+ new food and drink items per quarter."
+      },
+      {
+        "company": "Crate & Barrel",
+        "title": "Sales Associate",
+        "time": "June 2018 - April 2022",
+        "description": "Exceeded yearly expectations in sales KP, upselling approximately $100,000 worth of product yearly, notably developed a new system of operation leading to an approximate 140% increase in order completion and client satisfaction"
+      },
+      {
+        "company": "William Reed Business Media",
+        "title": "Editorial Intern",
+        "time": "May 2021 - August 2021",
+        "description": "Collaborated with Editor-in-Chief to publish content for 3 different B2B news channels while seeking prospective opportunities. "
+      },
+      {
+        "company": "Flower Bomb Media",
+        "title": "Editorial Intern",
+        "time": "December 2020 - May 2021",
+        "description": "Conceptualized and produced 30+ articles for global fashion and entertainment magazine, New Face Magazine, which produced 17 issues that year and has 64k+ followers on social media"
       }
   ]
