@@ -24,7 +24,7 @@ function Resume(props) {
                 <h1>General Assembly, Software Engineer Fellow</h1>
                 <p>October 2022 - February 2023</p>
                 <p className="jobDescription">
-                  A 12-week / 500+ hour immersive course on full-stack web
+                  A 12-week, 500+ hour immersive course on full-stack web
                   development; designed and built 3 full-stack applications and 1
                   client application that interacts with a third-party API.
                 </p>

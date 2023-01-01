@@ -24,90 +24,57 @@
 }
 
 h1.title:after {
+  position: relative;
+
   content: "";
-  animation: abomination1 7.5s linear 1;
+  animation: abomination1 7.5s linear infinite;
   animation-fill-mode: forwards;
 }
 
 @keyframes abomination1 {
-  0% {
-    content: "";
-  }
-  4% {
-    content: "<>";
-  }
-  8% {
-    content: "<A>";
-  }
-  12% {
-    content: "<A >";
-  }
-  16% {
-    content: "<A S>";
-  }
-  20% {
-    content: "<A So>";
-  }
-  24% {
-    content: "<A Sof>";
-  }
-  28% {
-    content: "<A Soft>";
-  }
-  32% {
-    content: "<A Softw>";
-  }
-  36% {
-    content: "<A Softwa>";
-  }
-  40% {
-    content: "<A Softwar>";
-  }
-  44% {
-    content: "<A Software>";
-  }
-  48% {
-    content: "<A Softwaree>";
-  }
-  52% {
-    content: "<A Software>";
-  }
-  56% {
-    content: "<A Software >";
-  }
-  60% {
-    content: "<A Software E>";
-  }
-  64% {
-    content: "<A Software En>";
-  }
-  68% {
-    content: "<A Software Eng>";
-  }
-  72% {
-    content: "<A Software Engi>";
-  }
-  76% {
-    content: "<A Software Engin>";
-  }
-  80% {
-    content: "<A Software Enginn>";
-  }
-  84% {
-    content: "<A Software Engin>";
-  }
-  88% {
-    content: "<A Software Engine>";
-  }
-  92% {
-    content: "<A Software Enginee>";
-  }
-  96% {
-    content: "<A Software Engineer>";
-  }
-  100% {
-    content: "<A Software Engineer.>";
-  }
+  0% {content: " ";}
+  2% {content: "<>";}
+  4% {content: "<A>";}
+  6% {content: "<A >";}
+  8% {content: "<A S>";}
+  10% {content: "<A So>";}
+  12% {content: "<A Sof>";}
+  14% {content: "<A Soft>";}
+  18% {content: "<A Softw>";}
+  20% {content: "<A Softwa>";}
+  22% {content: "<A Softwar>";}
+  24% {content: "<A Software>";}
+  26% {content: "<A Software >";}
+  28% {content: "<A Software E>";}
+  30% {content: "<A Software En>";}
+  32% {content: "<A Software Eng>";}
+  34% {content: "<A Software Engi>";}
+  36% {content: "<A Software Engin>";}
+  38% {content: "<A Software Engine>";}
+  40% {content: "<A Software Enginee>";}
+  42% {content: "<A Software Engineer>";}
+  54% {content: "<A Software Engineer.>";}
+  56% {content: "<A Software Engineer>";}
+  58% {content: "<A Software Enginee>";}
+  60% {content: "<A Software Engine>";}
+  62% {content: "<A Software Engin>";}
+  64% {content: "<A Software Engi";}
+  66% {content: "<A Software Eng>";}
+  68% {content: "<A Software En>";}
+  70% {content: "<A Software E>";}
+  72% {content: "<A Software >";}
+  74% {content: "<A Software>";}
+  76% {content: "<A Softwar>";}
+  78% {content: "<A Softwa>";}
+  80% {content: "<A Softw>";}
+  82% {content: "<A Soft>";}
+  84% {content: "<A Sof>";}
+  86% {content: "<A So>";}
+  88% {content: "<A S>";}
+  90% {content: "<A >";}
+  92% {content: "<A>";}
+  94% {content: "<>";}
+  100% {content: "<>";}
 }
 @media only screen and (max-width: 1000px) {
   .navOption{

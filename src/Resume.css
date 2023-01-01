@@ -57,17 +57,18 @@ ul li:nth-child(even) div {
 .jobDescription {
   font-size: 18px;
 }
-
 .skills {
   margin: 100px;
 }
 .symbolDiv {
-  width: 75%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   margin: auto;
   margin-top: 40px;
+  display: flex;
 }
 .symbol {
   width: 60px;
+  position: static;
 }
