@@ -14,17 +14,17 @@ ul {
 ul li {
   position: relative;
   list-style-type: none;
-  width: 6px;
-  background-color: rgb(3, 1, 1);
+  width: 3px;
+  background-color: white;
   margin: 0 auto;
 }
 .timelineEventBox {
-  border-bottom: 3px solid black;
+  border-bottom: white;
   width: 500px;
 }
 
 ul li::after {
-  background: black;
+  background: white;
   content: "";
   width: 25px;
   height: 25px;
@@ -40,7 +40,6 @@ ul li div {
   padding: 15px;
   border-radius: 5px;
   bottom: 0;
-  background: #ffffff;
 }
 
 ul li:nth-child(odd) div {
