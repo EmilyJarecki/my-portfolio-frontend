@@ -1,14 +1,33 @@
-  .navOption{
-    font-size: 24px;
-    margin-top: 30px;
-    color:black;
-    opacity: 0.5;
-  }
+.navOption {
+  font-size: 24px;
+  margin-top: 30px;
+  color: black;
+  opacity: 0.5;
+}
 
-  .navOption:hover{
-    opacity: 1;
+.navOption:hover {
+  opacity: 1;
+}
+
+a:link {
+  text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+  .navOption {
+    font-size: 100%;
   }
-  
-  a:link{
-    text-decoration: none;
-  }
+.headerNav {
+  display: flex;
+  flex-direction: column;
+}
+.navOption {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+}
+
