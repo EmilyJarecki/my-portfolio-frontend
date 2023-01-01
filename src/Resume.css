@@ -1,7 +1,9 @@
 .body {
   margin: 50px 0 0 0;
 }
-
+.experience{
+  margin-bottom :80px;
+}
 ul {
   padding: 10px;
   
@@ -19,11 +21,14 @@ ul li {
 .timelineEventBox {
   border-bottom: white 3px solid;
   width: 500px;
+  bottom: 80px;
+}
+.emph{
+  color: goldenrod
 }
 .date{
   color: goldenrod
 }
-
 ul li::after {
   background: white;
   content: "";
@@ -33,7 +38,7 @@ ul li::after {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -40px;
+  bottom: 0px;
 }
 ul li div {
   position: relative;

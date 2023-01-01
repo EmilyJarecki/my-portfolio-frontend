@@ -12,65 +12,87 @@ function Resume(props) {
     }
     getResumeData();
   }, []);
-
   const loaded = () => {
     return (
       <div className="body">
         <div>
-          <h1>Experience</h1>
+          <h1 className="experience">Experience</h1>
           <ul>
             <li>
               <div className="timelineEventBox">
-                <h2>GENERAL ASSEMBLY, <br></br><span className="jobName">Software Engineer Fellow</span></h2>
+                <h2>
+                  GENERAL ASSEMBLY, <br></br>
+                  <span className="jobName">Software Engineer Fellow</span>
+                </h2>
                 <p className="jobDescription">
-                  A 12-week, 500+ hour immersive course on full-stack web
-                  development; designed and built 3 full-stack applications and 1
-                  client application that interacts with a third-party API.
+                  A 12-week, <span className="emph">500+ hour</span> immersive
+                  course on full-stack web development; designed and built{" "}
+                  <span className="emph">3 full-stack</span> applications and{" "}
+                  <span className="emph">1 client</span> application that
+                  interacts with a third-party <span className="emph">API</span>
+                  .
                 </p>
                 <h1 className="date">2023</h1>
               </div>
             </li>
             <li>
               <div className="timelineEventBox">
-                <h2>TRUE FOOD KITCHEN, <br></br><span className="jobName">Server</span></h2>
+                <h2>
+                  TRUE FOOD KITCHEN, <br></br>
+                  <span className="jobName">Server</span>
+                </h2>
                 <p className="jobDescription">
                   Handled 8 tables at a time, facilitating communication between
-                  approximately 40 clients and kitchen staff, and oversaw the
-                  introduction of 30+ new food and drink items per quarter.
+                  approximately <span className="emph">40</span> clients and
+                  kitchen staff, and oversaw the introduction of 30+ new food
+                  and drink items per quarter.
                 </p>
                 <h1 className="date">2022</h1>
               </div>
             </li>
             <li>
               <div className="timelineEventBox">
-                <h2>CRATE & BARREL, <br></br><span className="jobName">Sales Associate</span></h2>
+                <h2>
+                  CRATE & BARREL, <br></br>
+                  <span className="jobName">Sales Associate</span>
+                </h2>
                 <p className="jobDescription">
-                  Exceeded yearly expectations in sales KP, upselling
-                  approximately $100,000 worth of product yearly, notably
-                  developed a new system of operation leading to an approximate
-                  140% increase in order completion and client satisfaction.
+                  Exceeded yearly expectations in sales KPI, upselling
+                  approximately <span className="emph">$100,000</span> worth of
+                  product yearly, notably developed a new system of operation
+                  leading to an approximate
+                  <span className="emph">140%</span> increase in order
+                  completion and client satisfaction.
                 </p>
                 <h1 className="date">2022</h1>
               </div>
             </li>
             <li>
               <div className="timelineEventBox">
-                <h2>WILLIAM REED BUSINESS MEDIA, <br></br><span className="jobName">Editorial Intern</span></h2>
+                <h2>
+                  WILLIAM REED BUSINESS MEDIA, <br></br>
+                  <span className="jobName">Editorial Intern</span>
+                </h2>
                 <p className="jobDescription">
                   Collaborated with Editor-in-Chief to publish content for 3
-                  different B2B news channels while seeking prospective
-                  opportunities.
+                  different <span className="emph">B2B news channels</span>{" "}
+                  while seeking prospective opportunities.
                 </p>
                 <h1 className="date">2021</h1>
               </div>
             </li>
             <li>
               <div className="timelineEventBox">
-                <h2>FLOWER BOMB MEDIA, <br></br><span className="jobName">Editorial Intern</span></h2>
+                <h2>
+                  FLOWER BOMB MEDIA, <br></br>
+                  <span className="jobName">Editorial Intern</span>
+                </h2>
                 <p className="jobDescription">
-                  Conceptualized and produced 30+ articles for global fashion
-                  and entertainment magazine, New Face Magazine, which produced
-                  17 issues that year and has 64k+ followers on social media,
+                  Conceptualized and produced <span className="emph">30+</span>{" "}
+                  articles for global fashion and entertainment magazine, New
+                  Face Magazine, which produced
+                  <span className="emph">17</span> issues that year and has{" "}
+                  <span className="emph">64k+ followers</span> on social media,
                 </p>
                 <h1 className="date">2021</h1>
               </div>
@@ -102,7 +124,7 @@ function Resume(props) {
             />
             <img
               className="symbol express"
-              src="https://img.icons8.com/ios/512/express-js.png"
+              src="https://img.icons8.com/nolan/512/express-js.png"
             />
             <img
               className="symbol bootstrap"
@@ -114,7 +136,7 @@ function Resume(props) {
             />
             <img
               className="symbol nodejs"
-              src="https://img.icons8.com/color/512/nodejs.png"
+              src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-nodejs-is-an-open-source-cross-platform-javascript-run-time-environment-logo-shadow-tal-revivo.png"
             />
             <img
               className="symbol git"
@@ -122,7 +144,7 @@ function Resume(props) {
             />
             <img
               className="symbol github"
-              src="https://img.icons8.com/ios-filled/512/github.png"
+              src="https://img.icons8.com/color-glass/512/github--v2.png"
             />
             <img
               className="symbol VS"
@@ -143,6 +165,8 @@ function Resume(props) {
           </div>
         </div>
         <div className="Education">
+          <h1 className="experience">Education</h1>
+
           <ul>
             <li>
               <div className="timelineEventBox">
@@ -152,7 +176,6 @@ function Resume(props) {
               </div>
             </li>
             <li>
-              <h1></h1>
               <div className="timelineEventBox">
                 <h2>UNIVERSITY OF ILLINOIS AT CHICAGO</h2>
                 <p>August 2018 - December 2021</p>
