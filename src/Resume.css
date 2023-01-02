@@ -1,15 +1,22 @@
 .body {
   margin: 50px 0 0 0;
+  
+}
+.timelineDiv{
+  align-content: center;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
 }
 .experience{
   margin-bottom :80px;
 }
 ul {
   padding: 10px;
-  
+  margin: 10%
 }
 li{
-  height: 200px
+  height: 200px;
 }
 ul li {
   position: relative;
@@ -79,4 +86,40 @@ ul li:nth-child(even) div {
 .symbol {
   width: 60px;
   position: static;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+  .timelineEventBox {
+    width: 400px;
+  }
+  ul li:nth-child(even) div {
+    left: -450px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .timelineEventBox {
+    width:300px;
+    right: 0
+  }
+  ul li:nth-child(odd) div {
+    left: 25px;
+    text-align: start;
+  }
+  ul li:nth-child(even) div {
+    left: -350px;
+    text-align: end;
+  }
+
+}
+@media only screen and (max-width: 650px) {
+  .timelineEventBox {
+    width:300px;
+  }
+  ul li:nth-child(even) div {
+    left: -350px;
+    text-align: end;
+  }
+
 }

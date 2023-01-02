@@ -15,7 +15,7 @@ function Resume(props) {
   const loaded = () => {
     return (
       <div className="body">
-        <div>
+        <div className="timelineDiv">
           <h1 className="experience">Experience</h1>
           <ul>
             <li>
