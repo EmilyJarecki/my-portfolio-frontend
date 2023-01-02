@@ -22,26 +22,26 @@ ul li {
   position: relative;
   list-style-type: none;
   width: 3px;
-  background-color: white;
+  background-color: black;
   margin: 0 auto;
 }
 .timelineEventBox {
-  border-bottom: white 3px solid;
+  border-bottom: black 3px solid;
   width: 500px;
   bottom: 80px;
 }
 .emph{
-  color:deepskyblue;
+  color:red;
   font-family: "Fragment Mono", monospace;
   font-size:medium;
 }
 .date{
-  color: rgb(208, 205, 3);
+  color: rgb(11, 11, 237);
   font-family: "Fragment Mono", monospace;
   font-size: x-large;
 }
 ul li::after {
-  background: white;
+  background: black;
   content: "";
   width: 25px;
   height: 25px;

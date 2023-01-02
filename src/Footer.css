@@ -17,12 +17,12 @@ nav.footer {
 a.github, a.linkedin, a.email {
   width: 50px;
   height: 50px;
-  background-color: #fff;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: rotate(-30deg) skew(25deg) translate(0, 0);
-  box-shadow: -5px 5px 10px rgba(255, 255, 255, 0.594);
+  box-shadow: -5px 5px 10px black;
   transition: 0.3s all ease-in-out;
 }
 
@@ -32,7 +32,7 @@ a.linkedin{
 
 a.github:hover, a.linkedin:hover, a.email:hover {
   transform: rotate(-30deg) skew(25deg) translate(10px, -10px);
-  box-shadow: -20px 20px 30px white;
+  box-shadow: -20px 20px 30px black;
 }
 
 a.github:hover {
@@ -57,11 +57,11 @@ a svg {
 a svg path,
 a svg circle {
   transition: 0.1s all ease-in-out;
-  fill: #292929;
+  fill: black;
 }
 
 /* this changes the icon color after hover */
 a:hover svg path,
 a:hover svg circle {
-  fill: #fff;
+  fill: white;
 }

@@ -34,7 +34,7 @@ p.projectDes {
 }
 a.projectLink {
   font-family: "Fragment Mono", monospace;
-  color: rgb(242, 230, 65);
+  color: rgb(1, 34, 249);
 }
 
 
@@ -79,7 +79,7 @@ a.projectLink {
   }
   .projectImg {
     width: 100%;
-    border: solid white 3px;
+    border: solid black 3px;
     box-shadow: 10px 15px 5px rgb(0, 0, 0, 0.5);
   }
   h1.projectName {
