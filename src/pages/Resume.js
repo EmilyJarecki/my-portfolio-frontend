@@ -17,6 +17,7 @@ function Resume(props) {
       <div className="body">
         <div className="timelineDiv">
           <h1 className="experience">Experience</h1>
+          <br></br>
           <ul>
             <li>
               <div className="timelineEventBox">
@@ -91,7 +92,7 @@ function Resume(props) {
                 <p className="jobDescription">
                   Conceptualized and produced <span className="emph">30+</span>{" "}
                   articles for global fashion and entertainment magazine, New
-                  Face Magazine, which produced 
+                  Face Magazine, which produced
                   <span className="emph"> 17</span> issues that year and has{" "}
                   <span className="emph">64k+ followers</span> on social media,
                 </p>
@@ -167,7 +168,7 @@ function Resume(props) {
         </div>
         <div className="Education">
           <h1 className="experience">Education</h1>
-
+          <br></br>
           <ul>
             <li>
               <div className="timelineEventBox">
