@@ -24,7 +24,7 @@ function Projects(props) {
               <h4 className="projectLink">&lt;Github&gt;</h4>
             </a>
             <a href={project.live} className="projectLink" target="_blank">
-              <h4 className="projectLink">&lt;Website&gt;</h4>
+              <h4 className="projectLink">&lt;Live&gt;</h4>
             </a>
           </div>
 

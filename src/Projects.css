@@ -8,7 +8,7 @@
   display: flex;
 }
 .projectInfo {
-  width: 40%;
+  width: 30%;
   text-align: right;
   position: relative;
   margin: 20px;
@@ -20,8 +20,8 @@
 .projectImg {
   float: right;
   display: -webkit-box;
-  margin-left: auto;
-  width: 70%;
+  width: 50%;
+  right:0;
 }
 h1.projectName {
   float: right;
