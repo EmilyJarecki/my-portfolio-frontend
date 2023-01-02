@@ -52,7 +52,7 @@ a.projectLink {
 
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
   .outerProject {
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@ a.projectLink {
   }
   .projectLink {
     width: 100%;
-    font-size: 12px;
+    font-size: medium;
   }
   .projectImg {
     width: 100%;
@@ -87,7 +87,7 @@ a.projectLink {
     width: 100%;
   }
   p.projectDes {
-    font-size: 18px;
+    font-size: larger;
     width: 100%;
   }
 
