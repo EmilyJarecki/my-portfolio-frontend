@@ -12,19 +12,20 @@ function Header(props) {
 
   return (
     <header>
-
       <nav className="headerNav" style={navStyle}>
         <Link to="/">
-          <div className="navOption" text-decoration="none" >HOME</div>
+          <div className="navOption" text-decoration="none">
+            HOME
+          </div>
         </Link>
         <Link to="/about">
           <div className="navOption">ABOUT</div>
         </Link>
-        <Link to="/projects">
-          <div className="navOption">PROJECTS</div>
-        </Link>
         <Link to="/resume">
           <div className="navOption">RESUME</div>
+        </Link>
+        <Link to="/projects">
+          <div className="navOption">PROJECTS</div>
         </Link>
       </nav>
     </header>

@@ -1,6 +1,5 @@
 .body {
   margin: 50px 0 0 0;
-  
 }
 .timelineDiv{
   align-content: center;
@@ -9,11 +8,12 @@
   position: relative;
 }
 .experience{
-  margin-bottom :80px;
+  color: orange;
+  font-family: "Fragment Mono", monospace;
 }
 ul {
   padding: 10px;
-  margin: 10%
+  margin: 5%
 }
 li{
   height: 200px;
@@ -31,10 +31,14 @@ ul li {
   bottom: 80px;
 }
 .emph{
-  color: goldenrod
+  color:deepskyblue;
+  font-family: "Fragment Mono", monospace;
+  font-size:medium;
 }
 .date{
-  color: goldenrod
+  color: rgb(208, 205, 3);
+  font-family: "Fragment Mono", monospace;
+  font-size: x-large;
 }
 ul li::after {
   background: white;
@@ -67,10 +71,11 @@ ul li:nth-child(even) div {
   text-align: end;
 }
 .jobName{
-  font-size: large;
+  font-size: 20px;
+
 }
 .jobDescription {
-  font-size: 18px;
+  font-size: 20px;
 }
 .skills {
   margin: 100px;
@@ -125,6 +130,7 @@ ul li:nth-child(even) div {
   }
   ul{
     border-left: solid white 3px;
+      margin: 10%
   }
   ul li:nth-child(odd) div {
     left: 25px;

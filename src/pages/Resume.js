@@ -100,7 +100,7 @@ function Resume(props) {
           </ul>
         </div>
         <div className="skills">
-          <h1>Technical Skills</h1>
+          <h1 className="experience">Technical Skills</h1>
           <div className="symbolDiv">
             <img
               className="symbol javascript"

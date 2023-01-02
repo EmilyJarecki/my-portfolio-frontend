@@ -1,5 +1,5 @@
 html{
-  background-color: #252B37;
+  background-color: #010101db;
   color: white
 }
 .App {
@@ -41,7 +41,6 @@ p.bio{
 }
 img.myPic{
   width: 20%;
-  opacity: .7;
 }
 
 
