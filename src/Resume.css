@@ -113,13 +113,28 @@ ul li:nth-child(even) div {
   }
 
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
   .timelineEventBox {
     width:300px;
   }
-  ul li:nth-child(even) div {
-    left: -350px;
-    text-align: end;
+  ul li {
+    position: relative;
+    list-style-type: none;
+    margin: -10px;
+    margin-bottom: 150px;
   }
-
+  ul{
+    border-left: solid white 3px;
+  }
+  ul li:nth-child(odd) div {
+    left: 25px;
+    text-align: start;
+  }
+  ul li:nth-child(even) div {
+    left: 25px;
+    text-align: start;
+  }
+  ul li {
+    width: 0px;
+  }
 }

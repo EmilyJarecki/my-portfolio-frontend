@@ -19,7 +19,7 @@ useEffect(()=>{
       <h2 className="bio">This is {about.name}</h2>
 
         <p className="bio">
-           Emily Jarecki is a Chicago-based Software Engineer studying at General Assembly's Software Engineering Immersive.  
+           Emily Jarecki is a Chicago-based Software Engineer studying at General Assembly's Software Engineering Immersive.
         </p>
         <p className="bio">Before making the leap, she was self-teaching herself HTML, CSS, and Python.</p>
         <p className="bio">She does not like talking about herself in third person.</p>

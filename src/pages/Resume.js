@@ -61,7 +61,7 @@ function Resume(props) {
                   approximately <span className="emph">$100,000</span> worth of
                   product yearly, notably developed a new system of operation
                   leading to an approximate
-                  <span className="emph">140%</span> increase in order
+                  <span className="emph"> 140%</span> increase in order
                   completion and client satisfaction.
                 </p>
                 <h1 className="date">2022</h1>
@@ -90,8 +90,8 @@ function Resume(props) {
                 <p className="jobDescription">
                   Conceptualized and produced <span className="emph">30+</span>{" "}
                   articles for global fashion and entertainment magazine, New
-                  Face Magazine, which produced
-                  <span className="emph">17</span> issues that year and has{" "}
+                  Face Magazine, which produced 
+                  <span className="emph"> 17</span> issues that year and has{" "}
                   <span className="emph">64k+ followers</span> on social media,
                 </p>
                 <h1 className="date">2021</h1>
