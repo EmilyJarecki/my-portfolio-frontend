@@ -102,6 +102,11 @@ ul li:nth-child(even) div {
   ul li:nth-child(even) div {
     left: -450px;
   }
+  .symbolDiv{
+    flex-wrap:wrap;
+    width: 100%;
+    left: auto;
+}
 }
 @media only screen and (max-width: 850px) {
   .timelineEventBox {
@@ -115,8 +120,8 @@ ul li:nth-child(even) div {
   ul li:nth-child(even) div {
     left: -350px;
     text-align: end;
+    
   }
-
 }
 @media only screen and (max-width: 700px) {
   .timelineEventBox {
@@ -129,7 +134,7 @@ ul li:nth-child(even) div {
     margin-bottom: 150px;
   }
   ul{
-    border-left: solid white 3px;
+    border-left: solid black 3px;
       margin: 10%
   }
   ul li:nth-child(odd) div {
@@ -144,3 +149,7 @@ ul li:nth-child(even) div {
     width: 0px;
   }
 }
+/* @media only screen and (max-width: 500px){
+  .timelineDiv{
+  }
+} */

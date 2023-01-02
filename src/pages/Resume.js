@@ -70,6 +70,7 @@ function Resume(props) {
             <li>
               <div className="timelineEventBox">
                 <h2>
+                  <br></br>
                   WILLIAM REED BUSINESS MEDIA, <br></br>
                   <span className="jobName">Editorial Intern</span>
                 </h2>
