@@ -3,7 +3,7 @@
   justify-content: center;
 }
 .individualProject {
-  margin: 10px 0 50px 0;
+  margin: 10px 0px 50px 0;
   width: 90%;
   display: flex;
 }
@@ -19,14 +19,14 @@
 }
 .projectImg {
   float: right;
-  display: -webkit-box;
-  width: 50%;
-  right:0;
+  /* display: -webkit-box; */
+  width: 60%;
+  /* right:0; */
 }
 h1.projectName {
-  float: right;
   font-size: 60px;
   margin-bottom: auto;
+  width: 100%;
 }
 p.projectDes {
   float: right;

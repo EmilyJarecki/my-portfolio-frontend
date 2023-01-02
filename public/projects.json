@@ -12,5 +12,19 @@
       "git": "https://github.com/EmilyJarecki/MemoryMatcher",
       "image": "https://user-images.githubusercontent.com/107048020/206950500-c733017d-3683-4120-96fc-7c8478167a91.png",
       "description": "A browser-based game to engage users in a Candy Crush Saga inspired memory matching game."
+    },
+    {
+      "name": "Pokedex",
+      "live": "",
+      "git": "https://github.com/EmilyJarecki/HerokuPokedex",
+      "image": "https://camo.githubusercontent.com/64485d3ce66517e69a7e746278df09d49b54b561bab5b37a54e50ed792b3610f/68747470733a2f2f73656972313033312d6d6174657269616c732e6e6f74696f6e2e736974652f696d6167652f6874747073253341253246253246696d6775722e636f6d2532466f7847506e4e442e706e673f69643d64376538316161622d633032622d343738312d393631652d306166313664323663303232267461626c653d626c6f636b26737061636549643d39396366633930632d643735372d343565372d613930342d6564636336356565613935342677696474683d32303030267573657249643d2663616368653d7632",
+      "description": "A full CRUD Express API built from scratch using JavaScript, Node.js, Express.js, NPM, and Mongoose."
+    },
+    {
+      "name": "To-Do",
+      "live": "https://admirable-marshmallow-1a981d.netlify.app",
+      "git": "https://github.com/EmilyJarecki/ToDo",
+      "image": "https://user-images.githubusercontent.com/107048020/209759282-cb5dca1b-b127-479c-9d17-b9e4fa7e79bb.png",
+      "description": "A full-stack, full-CRUD web application focused on OOP, using React.js, Express.js, Node.js, NPM, JavaScript, Bootstrap, HTML5, and CSS3."
     }
   ]
