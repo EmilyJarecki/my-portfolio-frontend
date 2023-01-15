@@ -1,5 +1,12 @@
 [
     {
+      "name": "Twitter 2.0",
+      "live": "https://joyful-liger-ab5a7d.netlify.app/",
+      "git": "https://github.com/SpeakerTwitter/frontend",
+      "image": "https://i.imgur.com/jVxJR7v.png",
+      "description": "A full-stack web application inspired by Twitter using MERN (MongoDB, Express.js, React.js, and Node.js) and a responsive user interface with full-CRUD (create, read, update, and delete) capabilities through RESTful routing."
+    },
+    {
         "name": "The Weather Window",
         "live": "https://inspiring-douhua-d09af5.netlify.app/",
         "git": "https://github.com/npereznyc/Project-2-Weather-App/blob/main/README.md",

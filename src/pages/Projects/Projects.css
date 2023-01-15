@@ -19,9 +19,9 @@
 }
 .projectImg {
   float: right;
-  /* display: -webkit-box; */
   width: 60%;
-  /* right:0; */
+  border: solid black 3px;
+  box-shadow: 10px 15px 5px rgb(0 0 0 / 50%);
 }
 h1.projectName {
   font-size: 60px;

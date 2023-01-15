@@ -1,7 +1,9 @@
 .imageSec{
     margin-top: 50px;
   }
-  
+  header{
+    margin-bottom: 50px;
+  }
   .projectImg {
     width: 50%;
     align-self: center;
@@ -23,6 +25,7 @@
   }
   .headerNav{
     font-size: 20px;
+    margin-bottom: 50px;
   }
   img.myPic{
     width: 20%;
