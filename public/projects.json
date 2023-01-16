@@ -17,7 +17,7 @@
         "name": "2048",
         "live": "https://iridescent-melba-0e8849.netlify.app",
         "git": "https://github.com/EmilyJarecki/my2048",
-        "image": "blob:https://imgur.com/1e905184-b6e0-47ec-a309-85f49c5151a6",
+        "image": "https://user-images.githubusercontent.com/107048020/212731307-2d8554f2-ee45-4bc9-9b0d-ccfdea1e3fa3.png",
         "description": "A browser-based game using DOM manipulation."
       },
 
