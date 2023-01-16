@@ -8,7 +8,7 @@
     },
     {
         "name": "The Weather Window",
-        "live": "https://inspiring-douhua-d09af5.netlify.app/",
+        "live": "https://weather-window.netlify.app/",
         "git": "https://github.com/npereznyc/Project-2-Weather-App/blob/main/README.md",
         "image": "https://github.com/npereznyc/Project-2-Weather-App/raw/main/assets/Screen%20Shot%20Homepage.png",
         "description": "A client-rendered application that leverages third-party API and the read-only Navigator.geolocation property to deliver immediate weather forecast results for client’s current and future weather."
