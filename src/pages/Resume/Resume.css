@@ -10,6 +10,7 @@
 .experience{
   color: orange;
   font-family: "Fragment Mono", monospace;
+  margin-bottom: 0;
 }
 ul {
   padding: 10px;
@@ -91,8 +92,11 @@ ul li:nth-child(even) div {
 .symbol {
   width: 60px;
   position: static;
+  margin: 5px;
 }
-
+.text-base{
+  margin: 0px
+}
 
 
 @media only screen and (max-width: 1300px) {

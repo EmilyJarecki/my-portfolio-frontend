@@ -14,7 +14,123 @@ function Resume(props) {
   }, []);
   const loaded = () => {
     return (
-      <div className="body">
+      <div className="body">        <div className="skills">
+      <h1 className="experience">Technical Skills</h1>
+      <div className="symbolDiv">
+        <div>
+          <img
+            className="symbol javascript"
+            src="https://img.icons8.com/color/512/javascript.png"
+          />
+          <p className="text-base">JavaScript</p>
+        </div>
+        <div>
+          <img
+            className="symbol html"
+            src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/512/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-color-tal-revivo.png"
+          />
+          <p className="text-base">HTML5</p>
+        </div>
+        <div>
+          <img
+            className="symbol css"
+            src="https://img.icons8.com/stickers/512/css3.png"
+          />
+          <p className="text-base">CSS</p>
+        </div>
+        <div>
+          <img
+            className="symbol python"
+            src="https://img.icons8.com/fluency/512/python.png"
+          />
+          <p className="text-base">Python</p>
+        </div>
+        <div>
+          <img
+            className="symbol react"
+            src="https://img.icons8.com/color/512/react-native.png"
+          />
+          <p className="text-base">React</p>
+        </div>
+        <div>
+          <img
+            className="symbol express"
+            src="https://img.icons8.com/nolan/512/express-js.png"
+          />
+          <p className="text-base">Express</p>
+        </div>
+        <div>
+          <img
+            className="symbol bootstrap"
+            src="https://img.icons8.com/color/512/bootstrap.png"
+          />
+          <p className="text-base">Bootstrap</p>
+        </div>
+        <div>
+          <img
+            className="symbol sass"
+            src="https://img.icons8.com/color/512/sass.png"
+          />
+          <p className="text-base">Sass</p>
+        </div>
+        <div>
+          <img
+            className="symbol nodejs"
+            src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-nodejs-is-an-open-source-cross-platform-javascript-run-time-environment-logo-shadow-tal-revivo.png"
+          />
+          <p className="text-base">Node.js</p>
+        </div>
+        <div>
+          <img
+            className="symbol git"
+            src="https://img.icons8.com/color/512/git.png"
+          />
+          <p className="text-base">Git</p>
+        </div>
+        <div>
+          <img
+            className="symbol github"
+            src="https://img.icons8.com/color-glass/512/github--v2.png"
+          />
+          <p className="text-base">GitHub</p>
+        </div>
+        <div>
+          <img
+            className="symbol VS"
+            src="https://img.icons8.com/color/512/visual-studio-code-2019.png"
+          />
+          <p className="text-base">VS Code</p>
+        </div>
+        <div>
+          <img
+            className="symbol mongodb"
+            src="https://img.icons8.com/color/512/mongodb.png"
+          />
+          <p className="text-base">MongoDB</p>
+        </div>
+        <div>
+          <img
+            className="symbol heroku"
+            src="https://img.icons8.com/color/512/heroku.png"
+          />
+          <p className="text-base">Heroku</p>
+        </div>
+        <div>
+          <img
+            className="symbol netlify"
+            src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+          />
+          <p className="text-base">Netlify</p>
+        </div>
+        <div>
+          <img
+            className="symbol django"
+            src="https://img.icons8.com/color/512/django.png"
+          />
+          <p className="text-base">Django</p>
+        </div>
+      </div>
+    </div>
         <div className="timelineDiv">
           <h1 className="experience">Experience</h1>
           <br></br>
@@ -101,71 +217,6 @@ function Resume(props) {
             </li>
           </ul>
         </div>
-        <div className="skills">
-          <h1 className="experience">Technical Skills</h1>
-          <div className="symbolDiv">
-            <img
-              className="symbol javascript"
-              src="https://img.icons8.com/color/512/javascript.png"
-            />
-            <img
-              className="symbol html"
-              src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/512/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-color-tal-revivo.png"
-            />
-            <img
-              className="symbol css"
-              src="https://img.icons8.com/stickers/512/css3.png"
-            />
-            <img
-              className="symbol python"
-              src="https://img.icons8.com/fluency/512/python.png"
-            />
-            <img
-              className="symbol react"
-              src="https://img.icons8.com/color/512/react-native.png"
-            />
-            <img
-              className="symbol express"
-              src="https://img.icons8.com/nolan/512/express-js.png"
-            />
-            <img
-              className="symbol bootstrap"
-              src="https://img.icons8.com/color/512/bootstrap.png"
-            />
-            <img
-              className="symbol sass"
-              src="https://img.icons8.com/color/512/sass.png"
-            />
-            <img
-              className="symbol nodejs"
-              src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-nodejs-is-an-open-source-cross-platform-javascript-run-time-environment-logo-shadow-tal-revivo.png"
-            />
-            <img
-              className="symbol git"
-              src="https://img.icons8.com/color/512/git.png"
-            />
-            <img
-              className="symbol github"
-              src="https://img.icons8.com/color-glass/512/github--v2.png"
-            />
-            <img
-              className="symbol VS"
-              src="https://img.icons8.com/color/512/visual-studio-code-2019.png"
-            />
-            <img
-              className="symbol mongodb"
-              src="https://img.icons8.com/color/512/mongodb.png"
-            />
-            <img
-              className="symbol heroku"
-              src="https://img.icons8.com/color/512/heroku.png"
-            />
-            <img
-              className="symbol netlify"
-              src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
-            />
-          </div>
-        </div>
         <div className="Education">
           <h1 className="experience">Education</h1>
           <br></br>
@@ -196,74 +247,3 @@ function Resume(props) {
 }
 
 export default Resume;
-{
-  <div className="symbolDiv">
-    <img
-      className="symbol javascript"
-      src="https://img.icons8.com/color/512/javascript.png"
-    />
-    <img
-      className="symbol html"
-      src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/512/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-color-tal-revivo.png"
-    />
-    <img
-      className="symbol css"
-      src="https://img.icons8.com/stickers/512/css3.png"
-    />
-    <img
-      className="symbol python"
-      src="https://img.icons8.com/fluency/512/python.png"
-    />
-    <img
-      className="symbol react"
-      src="https://img.icons8.com/color/512/react-native.png"
-    />
-    <img
-      className="symbol express"
-      src="https://img.icons8.com/ios/512/express-js.png"
-    />
-    <img
-      className="symbol bootstrap"
-      src="https://img.icons8.com/color/512/bootstrap.png"
-    />
-    <img
-      className="symbol sass"
-      src="https://img.icons8.com/color/512/sass.png"
-    />
-    <img
-      className="symbol nodejs"
-      src="https://img.icons8.com/color/512/nodejs.png"
-    />
-    <img
-      className="symbol git"
-      src="https://img.icons8.com/color/512/git.png"
-    />
-    <img
-      className="symbol github"
-      src="https://img.icons8.com/ios-filled/512/github.png"
-    />
-    <img
-      className="symbol VS"
-      src="https://img.icons8.com/color/512/visual-studio-code-2019.png"
-    />
-    <img
-      className="symbol mongodb"
-      src="https://img.icons8.com/color/512/mongodb.png"
-    />
-    <img
-      className="symbol heroku"
-      src="https://img.icons8.com/color/512/heroku.png"
-    />
-    <img
-      className="symbol netlify"
-      src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
-    />
-  </div>;
-}
-{
-  /* <div>
-            <a href="https://i.imgur.com/Gw4MJfS.png" target="_blank">
-              <img className= "resumeDoc" src="https://i.imgur.com/Gw4MJfS.png"/>  
-            </a>
-        </div> */
-}
